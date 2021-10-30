@@ -1,0 +1,29 @@
+body {
+  background-color: purple;
+}
+
+.text {
+  color: white;
+  text-align: center;
+  border-style: dotted;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: black;
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: antiquewhite;
+  text-align: center;
+}
