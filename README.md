@@ -28,3 +28,8 @@ I have began learning some of the basic syntax for Solidity. This includes the u
 # 8/11/2021
 
 I have begun to do more with inheritance even though I haven't yet published, I have begun working with sending funds to other accounts which is the core of creating a dap. If A happens send x amount of WEI (Etherium's smallest form of currency) else do not send anything. It is getting a bit overwhelming for me but with breaks and time to revise and go back onto older material to make sure this is not going to fast, everything should be alright. I can't wait to create one day my own crypto coin, DAPP or both!
+
+
+# 9/11/2021
+
+Haven't done much. I have made my first smart contract which has a payable function meaning people can send money to to the contract. I have also began using oracles such as Chainlink. An oracle is (in theory) a decentralised link from blockchains to real world data such as USD, views on a Youtube video etc. It is how a smart contract can display to a person how many ETH or how many USD or any FIAT currency they have spent. It is a bit confusing but I am getting there. The most "annoying" part about this is that every blockchain including individual test-nets have their own address which is how we get the Oracle info so I need to have different addresses for different blockchains even if it is for the same purpose.
