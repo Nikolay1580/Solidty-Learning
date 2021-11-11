@@ -33,3 +33,8 @@ I have begun to do more with inheritance even though I haven't yet published, I 
 # 9/11/2021
 
 Haven't done much. I have made my first smart contract which has a payable function meaning people can send money to to the contract. I have also began using oracles such as Chainlink. An oracle is (in theory) a decentralised link from blockchains to real world data such as USD, views on a Youtube video etc. It is how a smart contract can display to a person how many ETH or how many USD or any FIAT currency they have spent. It is a bit confusing but I am getting there. The most "annoying" part about this is that every blockchain including individual test-nets have their own address which is how we get the Oracle info so I need to have different addresses for different blockchains even if it is for the same purpose.
+
+
+# 11/11/2021 
+
+Finished the fundMe contract. It is so far my most interesting contract as it has not 1 but 2 functions which are payable. I also learned about constructors which are function that get executed as soon as the contract is deployed and never again. The 2 payable functions are one to fund the contract and the other to withdraw from the contract. The second function is only available for the owner. This can be done in 2 ways. 1, use a require function which is like an if else but if the condition has not been met, the funds are returned to the user - gas fees. 2, is to use a modifier. The modifier will have also the exact same require function but the reason on why modifiers are better is because you can apply to any function countless of times.
