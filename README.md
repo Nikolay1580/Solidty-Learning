@@ -38,3 +38,8 @@ Haven't done much. I have made my first smart contract which has a payable funct
 # 11/11/2021 
 
 Finished the fundMe contract. It is so far my most interesting contract as it has not 1 but 2 functions which are payable. I also learned about constructors which are function that get executed as soon as the contract is deployed and never again. The 2 payable functions are one to fund the contract and the other to withdraw from the contract. The second function is only available for the owner. This can be done in 2 ways. 1, use a require function which is like an if else but if the condition has not been met, the funds are returned to the user - gas fees. 2, is to use a modifier. The modifier will have also the exact same require function but the reason on why modifiers are better is because you can apply to any function countless of times.
+
+
+# 15/11/2021
+
+I have began using python to deploy my Solidity code. So far I am using. VSCode which is very inefficient, not because VSCode is bad but because it is not built for this. I will for now wait and later will install Brownie which is an IDE which has built in environments and makes my life easier by not making me have to include the ABI, Bytecode and all of the JSON files
