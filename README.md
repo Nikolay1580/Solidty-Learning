@@ -43,3 +43,8 @@ Finished the fundMe contract. It is so far my most interesting contract as it ha
 # 15/11/2021
 
 I have began using python to deploy my Solidity code. So far I am using. VSCode which is very inefficient, not because VSCode is bad but because it is not built for this. I will for now wait and later will install Brownie which is an IDE which has built in environments and makes my life easier by not making me have to include the ABI, Bytecode and all of the JSON files
+
+
+# 18/11/2021
+
+I have been working with the brownie environment which saves me a lot of times when it comes to programming the python (web3) part of the code. I should will update my Github repository a bit later as I have not finished writing and fully deploying my Fund me contract on the test nets. ﻿I might also download truffle as it is another software that allows me to use my own local network meaning I can work on this offline. With the current knowledge I have from Solidity I think I will begin planning my NFT project where I write most if not all of the programming for the Minting of uniquely generated NFTS which will be in the form of art.
